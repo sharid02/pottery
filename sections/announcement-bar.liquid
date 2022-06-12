@@ -6,60 +6,52 @@
 
 {% schema %}
 {
-  "name": "t:sections.announcement-bar.name",
-  "max_blocks": 12,
-  "settings" [
-    {
-      "type": "select",
-      "id": "text_align",
-      "label": "text_alignment",
-      "options": [
-        {
-          "value": "align left",
-          "label": "align left"
-        },
-        {
-          "value": "text center",
-          "label": "text center"
-        },
-        {
-          "value": "text right",
-          "label": "text right"
-        }
-      ]
-    }
-  ],
-  "blocks": [
-    {
-      "type": "announcement",
-      "name": "t:sections.announcement-bar.blocks.announcement.name",
-      "settings": [
-       {
-         "type": "richtext",
-         "id": "text",
-         "label": "label"
-       },
-        {
-          "type": "color",
-          "id": "bg_color",
-          "label": "label",
-          "default": "#fff"
-        },
-        {
-          "type": "color",
-          "id": "text_color",
-          "label": "label",
-          "default":"#000" 
-        }
-      ]
-    }
-  ],
-  "default": {
-    "blocks": [
-      {
-        "type": "announcement"
-      }
-    ]
-  }
+	"name": "t:sections.announcement-bar.name",
+	"max_blocks": 12,
+	"settings": [{
+		"type": "select",
+		"id": "text_align",
+		"label": "text_alignment",
+		"options": [{
+				"value": "align left",
+				"label": "align left"
+			},
+			{
+				"value": "text center",
+				"label": "text center"
+			},
+			{
+				"value": "text right",
+				"label": "text right"
+			}
+		]
+	}],
+	"blocks": [{
+		"type": "announcement",
+		"name": "t:sections.announcement-bar.blocks.announcement.name",
+		"settings": [{
+				"type": "richtext",
+				"id": "text",
+				"label": "label"
+			},
+			{
+				"type": "color",
+				"id": "bg_color",
+				"label": "label",
+				"default": "#fff"
+			},
+			{
+				"type": "color",
+				"id": "text_color",
+				"label": "label",
+				"default": "#000"
+			}
+		]
+	}],
+	"default": {
+		"blocks": [{
+			"type": "announcement"
+		}]
+	}
 }
 {% endschema %}
