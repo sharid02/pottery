@@ -2,12 +2,13 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
             "heading": "Image banner",
-            "heading_size": "h0"
+            "heading_size": "large"
           }
         },
         "text": {
@@ -49,6 +50,7 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -77,26 +79,25 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
-        "heading_size": "h2",
         "collection": "all",
         "products_to_show": 8,
-        "columns_desktop": 4,
-        "show_view_all": false,
         "color_scheme": "background-1",
+        "show_view_all": false,
+        "swipe_on_mobile": false,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -125,7 +126,6 @@
       ],
       "settings": {
         "heading": "Multimedia collage",
-        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
@@ -135,9 +135,9 @@
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
-        "heading_size": "h1",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
@@ -148,6 +148,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -184,17 +185,14 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
