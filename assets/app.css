@@ -1355,7 +1355,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .header {
   display: grid;
+  min-height: 70px;
   grid-template-areas: "header-logo header-menu header-icons";
+  color: #272424;
   grid-template-columns: 1fr 2fr 1fr;
 }
 .header .header__logo {
