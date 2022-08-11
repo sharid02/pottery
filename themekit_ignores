@@ -1,3 +1,5 @@
+# $PROJECT_DIR/themekit_ignores
+# plain file names
 /src
 /node_modules
 webpack.mix.js
